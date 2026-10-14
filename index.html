@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Electrical Engineering project portfolio, reports, presentations and project documentation.">
+<title>My Project Portfolio | Electrical Engineering</title>
+<style>
+:root{--navy:#10243a;--blue:#1d4ed8;--ink:#172033;--muted:#64748b;--bg:#f4f7fb;--line:#e2e8f0;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{background:var(--navy);color:#fff;padding:22px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.brand{font-size:1.1rem;font-weight:800;letter-spacing:.3px}.nav a{text-decoration:none;color:#dbeafe;margin-left:18px;font-size:.95rem}
+.hero{background:linear-gradient(125deg,#10243a,#1e40af);color:#fff;padding:68px 0 62px}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;color:#bfdbfe;font-weight:700}
+h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.08;margin:12px 0 18px;max-width:780px}
+.hero p{font-size:1.08rem;color:#e2e8f0;max-width:690px;margin:0 0 25px}
+.btn{display:inline-block;background:#fff;color:#163a70;text-decoration:none;padding:11px 17px;border-radius:9px;font-weight:700;margin:4px 8px 4px 0}
+.btn.outline{background:transparent;color:#fff;border:1px solid #93c5fd}
+section{padding:48px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:22px}
+h2{font-size:1.8rem;margin:0 0 5px;color:var(--navy)}.sub{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 5px 18px #0f172a08;display:flex;flex-direction:column}
+.card-top{padding:22px;background:#eaf1ff;color:#1e3a8a;font-size:2rem}
+.card-body{padding:20px;display:flex;flex-direction:column;flex:1}
+.tag{display:inline-block;font-size:.75rem;background:#eef2ff;color:#3730a3;padding:4px 9px;border-radius:999px;font-weight:700;margin-bottom:10px;width:max-content}
+.card h3{margin:0 0 8px;font-size:1.15rem;color:var(--navy)}.card p{margin:0 0 15px;color:var(--muted);font-size:.94rem}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}.links a{background:var(--blue);color:white;text-decoration:none;border-radius:8px;padding:8px 11px;font-size:.84rem;font-weight:700}.links a.secondary{background:#eaf0f8;color:#1e293b}
+.note{border:1px solid #bfdbfe;background:#eff6ff;border-radius:12px;padding:16px 18px;color:#1e3a8a}
+.about-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:22px}.panel{background:#fff;border:1px solid var(--line);padding:24px;border-radius:16px}
+.panel p{color:var(--muted)}.skills{display:flex;flex-wrap:wrap;gap:8px}.skills span{background:#f1f5f9;padding:7px 10px;border-radius:8px;font-size:.88rem}
+footer{background:#0b1727;color:#cbd5e1;padding:28px 0;font-size:.9rem}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-grid{grid-template-columns:1fr}}
+@media(max-width:540px){.grid{grid-template-columns:1fr}.hero{padding:48px 0}.nav a{margin:0 12px 0 0}.section-head{align-items:start}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand">MY PROJECT PORTFOLIO</div>
+    <nav><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Electrical Engineering • Project Showcase</div>
+      <h1>Ideas, Engineering Projects & Documentation.</h1>
+      <p>A professional collection of my academic and practical projects, with project summaries, reports, presentations and supporting documents available to view or download.</p>
+      <a class="btn" href="#projects">Explore Projects ↓</a>
+      <a class="btn outline" href="#contact">Contact</a>
+    </div>
+  </div>
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Featured Projects</h2><p class="sub">Open a project or download its available documents.</p></div></div>
+      <div class="grid">
+        <!-- To add a project: copy one complete article.card block, update its title/description, and replace # with your uploaded file links. -->
+        <article class="card">
+          <div class="card-top">☀️</div><div class="card-body">
+            <span class="tag">Renewable Energy</span><h3>Solar EV Charging System</h3>
+            <p>A concept for charging an electric vehicle using solar energy, including the system layout, major components and project documentation.</p>
+            <div class="links"><a href="#" onclick="alert('Replace this link with your uploaded PDF URL.');return false;">Project Report (PDF)</a><a class="secondary" href="#" onclick="alert('Replace this link with your uploaded PPT URL.');return false;">Presentation (PPT)</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">🏭</div><div class="card-body">
+            <span class="tag">Automation • SCADA</span><h3>SCADA-Based Thermal Power Plant</h3>
+            <p>An overview of monitoring and control in a thermal power plant using SCADA, with process descriptions, diagrams and system functions.</p>
+            <div class="links"><a href="#" onclick="alert('Replace this link with your uploaded PDF URL.');return false;">Project Report (PDF)</a><a class="secondary" href="#" onclick="alert('Replace this link with your uploaded PPT URL.');return false;">Presentation (PPT)</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">🚦</div><div class="card-body">
+            <span class="tag">Industrial Automation</span><h3>Four-Way Traffic Light Control</h3>
+            <p>A traffic signal control project using SCADA/HMI concepts to demonstrate status monitoring and coordinated signal operation.</p>
+            <div class="links"><a href="#" onclick="alert('Replace this link with your uploaded PDF URL.');return false;">Project Details (PDF)</a><a class="secondary" href="#" onclick="alert('Replace this link with your uploaded PPT URL.');return false;">Presentation (PPT)</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">♻️</div><div class="card-body">
+            <span class="tag">Energy & Environment</span><h3>Electricity Generation from Waste</h3>
+            <p>A study of waste-to-energy methods, including the conversion process, major equipment, benefits and environmental considerations.</p>
+            <div class="links"><a href="#" onclick="alert('Replace this link with your uploaded PDF URL.');return false;">Project Report (PDF)</a><a class="secondary" href="#" onclick="alert('Replace this link with your uploaded PPT URL.');return false;">Presentation (PPT)</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">⚡</div><div class="card-body">
+            <span class="tag">Electrical Machines</span><h3>Electrical Machines & Experiments</h3>
+            <p>Laboratory work, machine characteristics, transformer tests, measurement experiments and supporting notes.</p>
+            <div class="links"><a href="#" onclick="alert('Replace this link with your uploaded PDF URL.');return false;">Lab File (PDF)</a><a class="secondary" href="#" onclick="alert('Replace this link with your uploaded PPT URL.');return false;">Presentation (PPT)</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">➕</div><div class="card-body">
+            <span class="tag">More Projects</span><h3>Add Your Next Project</h3>
+            <p>Use the instructions file to add more projects, descriptions, photos and document links whenever you need.</p>
+            <div class="links"><a class="secondary" href="#contact">Project enquiries</a></div>
+          </div>
+        </article>
+      </div>
+      <p style="margin-top:22px" class="note"><strong>Note:</strong> The project names above are starter examples. Replace the sample descriptions and placeholder links with your actual work before publishing.</p>
+    </div>
+  </section>
+  <section id="about" style="background:#eaf0f8">
+    <div class="wrap">
+      <div class="section-head"><div><h2>About This Portfolio</h2><p class="sub">A single place to showcase academic work and technical skills.</p></div></div>
+      <div class="about-grid">
+        <div class="panel"><h3>Portfolio Overview</h3><p>This website is designed to present project objectives, key features, documentation and presentations in a clear format. Public visitors can open the shared links without needing to contact the owner for each file, provided file permissions are set correctly.</p><p><strong>Owner:</strong> Add your name here</p><p><strong>College / Department:</strong> Add your college and department here</p></div>
+        <div class="panel"><h3>Areas of Interest</h3><div class="skills"><span>Electrical Engineering</span><span>Renewable Energy</span><span>SCADA</span><span>Power Systems</span><span>Electrical Machines</span><span>Project Documentation</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrap"><div class="panel"><h2>Contact</h2><p>Replace the details below with a public email address or professional profile if you want visitors to contact you.</p><p><strong>Email:</strong> Add your email address here</p><p><strong>Location:</strong> India</p></div></div>
+  </section>
+</main>
+<footer><div class="wrap"><span>© <span id="year"></span> My Project Portfolio</span><span>Built to showcase learning, design and engineering work.</span></div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
